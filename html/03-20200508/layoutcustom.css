@@ -1,0 +1,97 @@
+.tren1{
+    display: flex;
+    background-color: orange;
+    margin: 30px;
+   
+}
+.tren2{
+    width: 70%;
+    height: 10px;
+    background-color: blue;
+    padding: 5px;
+    margin: 20px;
+    border: white solid 1px;
+}
+.tren3{
+    width: 30%;
+    height: 10px;
+    background-color: cadetblue;
+    padding: 5px;
+    margin: 20px;
+    border: white solid 1px;
+}
+.giua1{
+    
+    background-color: gray;
+    display: flex;
+    margin: 30px;
+    height: 180px;
+}
+.giua2{
+    background-color: gray;
+    display: block;
+    margin: 15px;
+    width: 50%;
+    padding: 20px;
+}
+.giua3{
+    background-color: blue;
+    margin: 5px;
+    height: 10px;
+    padding: 5px;
+    border : solid white 1px;
+}
+.giua4{
+    background-color: blue;
+    margin: 5px;
+    height: 50px;
+    border : solid white 1px;
+}
+.giua5{
+    background-color: gray;
+    display: flex;
+
+    
+    width: 50%;
+    
+
+}
+.giua6{
+    background-color: blue;
+    width: 41%;
+    height: 95px;
+    margin-left: 6%;
+    border: solid white 1px;
+    margin-top: 42.5px
+    
+}
+.giua7{
+    background-color: blue;
+    width: 41%;
+    height: 95px;
+    margin-left: 6%;
+    margin-top: 42.5px;
+    border: solid white 1px;
+}
+.duoi1{
+    display: flex;
+    background-color: blue;
+    margin: 30px;
+    height: 40px;
+
+}
+.duoi2{
+    background-color: white;
+    width: 30%;
+    margin: 19;
+}
+.duoi3{
+    background-color: white;
+    width: 30%;
+    margin: 19;
+}
+.duoi4{
+    background-color: white;
+    width: 30%;
+    margin: 19;
+}
