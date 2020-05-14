@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: fluid;
+}
+.height-10{
+    height: 20vh;
+}
+.height-80{
+    height: 80vh;
+}
+.height-10{
+    height: 10vh;
+}
+.borderbot{
+    border-bottom: solid 1px white;
+}
+.borderaround{
+    border-radius: 10px;
+}
+.together{
+    display: flex;
+}
+.borderbutton{
+    border: solid 1px green;
+}
+.fontsize{
+    font-size: 20px;
+}
