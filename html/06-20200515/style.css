@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+}
+
+.h-33 {
+  height: 33.33vh;
+}
+
+.Heading__Logo--square {
+  width: 72px;
+  height: 72px;
+}
+
+.Heading__Logo--background {
+  background-color: rebeccapurple;
+}
+
+.Heading__Logo--font-size {
+  font-size: 70px;
+}
+
+.Heading__Logo--position-fixed {
+  position: fixed;
+  bottom: 0;
+}
+
+.Heading__Logo--margintop {
+  margin-top: 130px;
+}
+
+.Content__Form-input--border-radius {
+  border-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 1px solid lightblue;
+}
+
+.Content__Form-input--font {
+  font-size: 16px;
+}
+
+.Content__Form-input--padding {
+  padding: 10px;
+}
+
+.Content__Button--background-border {
+  background-color: royalblue;
+  border-radius: 10px;
+  border: royalblue solid 1px;
+}
+
+.Footer__paragraph--margin--top {
+  margin-top: 100px;
+}
+/*# sourceMappingURL=style.css.map */

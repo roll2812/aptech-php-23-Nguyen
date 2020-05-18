@@ -20,3 +20,12 @@ body{
 .fontsize{
     font-size: 20px;
 }
+a:hover{
+    border-bottom: solid 3px gray;
+    text-decoration: none;
+}
+.navbar{
+    position : fixed';
+    top : 0;
+
+}

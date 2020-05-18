@@ -1,15 +1,15 @@
 body{
     height: 100vh;
-    display: fluid;
+ 
 }
 .height-10{
-    height: 20vh;
+    height: 20vh !important;
 }
 .height-80{
-    height: 80vh;
+    height: 80vh !important;
 }
 .height-10{
-    height: 10vh;
+    height: 10vh !important;
 }
 .borderbot{
     border-bottom: solid 1px white;
