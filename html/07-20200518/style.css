@@ -1,0 +1,24 @@
+.body__div1--red {
+  background-color: red;
+}
+
+.body__div2--blue {
+  background-color: blue;
+}
+
+.body__div3--yellow {
+  background-color: yellow;
+}
+
+@media only screen and (min-width: 1200) {
+  .body__div1--red {
+    background-color: blue;
+  }
+  .body__div2--blue {
+    background-color: red;
+  }
+  .body__div3--yellow {
+    background-color: yellow;
+  }
+}
+/*# sourceMappingURL=style.css.map */

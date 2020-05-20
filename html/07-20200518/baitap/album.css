@@ -1,0 +1,44 @@
+a {
+  text-decoration: none;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  background-color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.max-width {
+  max-width: 40rem;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.footer--padding {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+/*# sourceMappingURL=album.css.map */

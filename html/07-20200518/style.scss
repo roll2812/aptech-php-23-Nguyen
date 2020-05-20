@@ -1,0 +1,38 @@
+
+    .body {
+        &__div1 {
+            &--red {
+                background-color: red;
+            }
+        }
+        &__div2 {
+            &--blue {
+                background-color: blue;
+            }
+        }
+        &__div3 {
+            &--yellow {
+                background-color: yellow;
+            }
+        }
+    }
+
+@media only screen and (min-width : 1200) {
+    .body {
+        &__div1 {
+            &--red {
+                background-color: blue;
+            }
+        }
+        &__div2 {
+            &--blue {
+                background-color: red;
+            }
+        }
+        &__div3 {
+            &--yellow {
+                background-color: yellow;
+            }
+        }
+    }
+}
