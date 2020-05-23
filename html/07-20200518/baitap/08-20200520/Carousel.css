@@ -33,4 +33,39 @@
   padding-right: .5rem;
   padding-left: .5rem;
 }
+
+.carousel-height {
+  height: 512px;
+}
+
+.hinhtron {
+  background-image: url("hinh-anh3.gif");
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  background-position: center;
+}
+
+.col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.hr-margin {
+  margin: 5rem 0;
+}
+
+.font-size-heading {
+  font-size: 50px;
+}
+
+.hinhanh {
+  width: 270px;
+  height: 270px;
+  background-color: lightgray;
+}
+
+.text-size {
+  font-size: 3.5rem;
+}
 /*# sourceMappingURL=Carousel.css.map */

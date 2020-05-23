@@ -1,37 +1,209 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta name="viewport" content="width=width=device, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="Carousel.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-        <div class="container-fluid">
-            <div class="row bg-dark navbar navbar-expand-md">
-                <div class="col-6 d-flex">
-                    <a href="" class="header--brand text-white text-decoration-none">Carousel</a>
-                    <ul class="navbar-nav mr-auto ">
-                        <li>
-                            <a href="" class="text-white nav-link mx-2">Home</a>
-                        </li>
-                        <li>
-                            <a href="" class="text-muted nav-link mx-2">Link</a>
-                        </li>
-                        <li>
-                            <a href="" class="text-secondary  nav-link mx-2">Disabled</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-6">
-                    <form class="form-inline mt-2 mt-md-0 justify-content-end">
-                        <input type="text" placeholder="Seach" class="form-control mr-sm-2">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+    <div class="container-fluid fixed-top">
+        <div class="row  bg-dark navbar">
+            <div class="col-6 d-flex">
+                <a href="" class="header--brand text-white">Carousel</a>
+                <ul class="d-flex list-unstyled navbar-nav align-items-center">
+                    <li class="mx-2">
+                        <a href="" class="text-white">Home</a>
+                    </li>
+                    <li class="mx-2">
+                    <li>
+                        <a href="" class="text-secondary">Link</a>
+                    </li>
+                    <li class="mx-2">
+                    <li>
+                        <a href="" class="text-muted">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <div class="d-flex align-items-center">
+                    <input type="text" placeholder="Search" class="form-control mr-sm-2">
+                    <button class="btn btn-outline-success">Search</button>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+    </div>
+    <div>
+        <div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner ">
+                <div class="carousel-item active carousel-height ">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                        <rect width="100%" height="100%" fill="#777"></rect>
+                    </svg>
 
+                    <div class="carousel-caption text-left">
+                        <h1>Example headline.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                        </p>
+                        <a href="" class="btn btn-primary">Sign up today</a>
+                    </div>
+
+                </div>
+                <div class="carousel-item carousel-height">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                        <rect width="100%" height="100%" fill="#777"></rect>
+                    </svg>
+                    <div class="carousel-caption ">
+                        <h1>Another example headline.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <a href="" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-height">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                        <rect width="100%" height="100%" fill="#777"></rect>
+                    </svg>
+                    <div class="carousel-caption text-right ">
+                        <h1>One more for good measure.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <a href="" class="btn btn-primary">Browes gallery</a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 ">
+                <div class="hinhtron mx-auto"> </div>
+                <h2 class="font-weight-normal">Heading</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                    cursus magna.</p>
+                <p>
+                    <a href="" class="btn btn-secondary">View detail >></a>
+                </p>
+
+            </div>
+            <div class="col-lg-4 ">
+                <div class="hinhtron mx-auto"> </div>
+                <h2 class="font-weight-normal">Heading</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                    cursus magna.</p>
+                <p>
+                    <a href="" class="btn btn-secondary">View detail >></a>
+                </p>
+
+            </div>
+            <div class="col-lg-4 ">
+                <div class="hinhtron mx-auto"> </div>
+                <h2 class="font-weight-normal">Heading</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                    cursus magna.</p>
+                <p>
+                    <a href="" class="btn btn-secondary">View detail >></a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <hr class="hr-margin ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h2 class="font-weight-normal font-size-heading">First featurette heading.
+                    <span class="text-muted">It’ll blow your mind.</span>
+                </h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p>
+
+            </div>
+            <div class="col-md-5">
+                <div class="hinhanh d-flex align-items-center">
+                    <p class="text-muted mx-auto my-auto text-size">500x500</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hr-margin ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="hinhanh d-flex align-items-center">
+                    <p class="text-muted mx-auto my-auto text-size">500x500</p>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <h2 class="font-weight-normal font-size-heading">Oh yeah, it’s that good.
+                    <span class="text-muted">See for yourself.</span>
+                </h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p>
+            </div>
+        </div>
+    </div>
+    <hr class="hr-margin ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h2 class="font-weight-normal font-size-heading">And lastly, this one.
+                    <span class="text-muted">Checkmate.</span>
+                </h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                    tellus ac cursus commodo.</p>
+
+            </div>
+            <div class="col-md-5">
+                <div class="hinhanh d-flex align-items-center">
+                    <p class="text-muted mx-auto my-auto text-size">500x500</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hr-margin">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 d-flex">
+                <p>© 2017-2019 Company, Inc ·
+                    <a href="" class="mx-auto">Privacy</a>
+                    ·
+                    <a href="" class="mx-auto">Terms</a>
+                </p>
+
+            </div>
+            <div class="col-6">
+                <a href="#" class="float-right">Back to top</a>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
