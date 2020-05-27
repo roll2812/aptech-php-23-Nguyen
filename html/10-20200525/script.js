@@ -1,11 +1,11 @@
-var on = false;
+var on = true;
 function turn() {
-    if (on == false) {
+    if (on == true) {
         document.getElementById('anh').src = "on.gif";
-         on = true;
-    }
-    else if (on == true) {
-        document.getElementById('anh').src="off.gif";
          on = false;
+    }
+    else if (on == false) {
+        document.getElementById('anh').src="off.gif";
+         on = true;
     }
 }
