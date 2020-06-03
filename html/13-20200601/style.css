@@ -1,0 +1,15 @@
+.buttonTop {
+    border: gray 1px solid;
+    border-radius: 10px;
+    background-color: white;
+}
+.image-height {
+    height: 400px;
+}
+.hinh {
+    background-image: url("./hinh-tron3.jpg");  
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+
+}
