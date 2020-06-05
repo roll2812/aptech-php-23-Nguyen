@@ -1,0 +1,37 @@
+.hinh {
+    background-image: url("./hinh-tron3.jpg");  
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    background-size: contain;
+}
+.image-height {
+    height: 400px;
+}
+.margin-bottom {
+    margin-bottom: 120px;
+}
+.hinh1{
+    background-image: url(./Capture001.png);
+    background-repeat: no-repeat;
+    
+}
+.border-top {
+    border-top: gray solid 1px;
+}
+.height-img {
+    height: 296px;
+}
+.content-relative {
+    position: relative;
+    top: 250px;
+}
+.image-height {
+    height: 536px;
+}
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
