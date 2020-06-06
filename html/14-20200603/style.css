@@ -35,3 +35,51 @@
     display: -ms-flexbox;
     display:         flex;
 }
+.bg-image1 {
+    background-image: url("./game.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.bg-image2 {
+    background-image: url("./white.jpg");
+    background-size: cover;
+    height: 450px;
+}
+.bg-image3 {
+    background-image: url("./xucxac.jpg");
+    background-size: cover;
+    height: 450px;
+    
+}
+.bg-image4 {
+    background-image: url("./ly.jpg");
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+    
+}
+.bg-image5 {
+    background-image: url("./hello.jpg");
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+    
+}
+.bg-image6 {
+    background-image: url("./bong.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    
+}
+.bg-image7 {
+    background-image: url("./co.jpg");
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    
+}
