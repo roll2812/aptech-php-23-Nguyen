@@ -1,0 +1,85 @@
+.hinh {
+    background-image: url("./hinh-tron3.jpg");  
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    background-size: contain;
+}
+.image-height {
+    height: 400px;
+}
+.margin-bottom {
+    margin-bottom: 120px;
+}
+.hinh1{
+    background-image: url(./Capture001.png);
+    background-repeat: no-repeat;
+    
+}
+.border-top {
+    border-top: gray solid 1px;
+}
+.height-img {
+    height: 296px;
+}
+.content-relative {
+    position: relative;
+    top: 200px;
+}
+.image-height {
+    height: 536px;
+}
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+.bg-image1 {
+    background-image: url("./game.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.bg-image2 {
+    background-image: url("./white.jpg");
+    background-size: cover;
+    height: 450px;
+}
+.bg-image3 {
+    background-image: url("./xucxac.jpg");
+    background-size: cover;
+    height: 450px;
+    
+}
+.bg-image4 {
+    background-image: url("./ly.jpg");
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+    
+}
+.bg-image5 {
+    background-image: url("./hello.jpg");
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+    
+}
+.bg-image6 {
+    background-image: url("./bong.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    
+}
+.bg-image7 {
+    background-image: url("./co.jpg");
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    
+}
