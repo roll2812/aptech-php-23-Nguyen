@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('personal', 'PersonalController@index');
+Route::get('users', 'UserController@index');
