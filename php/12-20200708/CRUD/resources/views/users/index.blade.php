@@ -17,6 +17,6 @@ Day la user:  <strong>{{$user->name}}</strong>
 <hr>
 @endforeach
 <form action="users/create" method="GET">
-<!-- <input type="hidden" method="_token" value="{{ csrf_token() }}"> -->
+<input type="hidden" method="_token" value="{{ csrf_token() }}">
 <button type="submit">Create</button>
 </form>
